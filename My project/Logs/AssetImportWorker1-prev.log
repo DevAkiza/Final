@@ -1,0 +1,612 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 8124 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Casper/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64209
+Successfully changed project path to: C:/Users/Casper/My project
+C:/Users/Casper/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 130.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Casper/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon (TM) RX 470 Graphics (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12027.7000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023773 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (184ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (424ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (127ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (95ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026337 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Casper\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Casper\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2160ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1663ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (788ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3362 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.2 KB). Loaded Objects now: 3822.
+Memory consumption went from 118.2 MB to 118.1 MB.
+Total: 3.487500 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.148600 ms MarkObjects: 2.816100 ms  DeleteObjects: 0.130400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 62794.262396 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_small.fbx
+  artifactKey: Guid(60507861c673d444284304c7d9f358fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_small.fbx using Guid(60507861c673d444284304c7d9f358fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740eee1927e907ff36f6dee745d34e42') in 0.380949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_sawblade_static.fbx
+  artifactKey: Guid(c05a066f987a44b8aa0f15733c86232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_sawblade_static.fbx using Guid(c05a066f987a44b8aa0f15733c86232f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1f2548b0bfe0b1988e66a4b59a3b14') in 0.069995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_platform_rotating.fbx
+  artifactKey: Guid(5769e313ec50c48c7af82f42ea516c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_platform_rotating.fbx using Guid(5769e313ec50c48c7af82f42ea516c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acf97fb9da9473a585949c30810a790') in 0.065654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_sawblade_moving_long.prefab
+  artifactKey: Guid(b128dc112146c40d5a5d537445db8bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_sawblade_moving_long.prefab using Guid(b128dc112146c40d5a5d537445db8bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094adbea047ac48c0508e2cee7eaf63f') in 0.070943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Characters/Models/Stickman_lpoly_rigged.fbx
+  artifactKey: Guid(bd49af3e7bf49445689e0131c5650789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Characters/Models/Stickman_lpoly_rigged.fbx using Guid(bd49af3e7bf49445689e0131c5650789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4cfc02bae637d7ec50b40378d673b7') in 0.102789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_levelend_chekeredpole.prefab
+  artifactKey: Guid(8b15d2e7b237445c4b2f73e02fc5471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_levelend_chekeredpole.prefab using Guid(8b15d2e7b237445c4b2f73e02fc5471b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f7465fb452ca59f448c21d3bb14fc8') in 0.061751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_simple_tower.prefab
+  artifactKey: Guid(3259487d2c6b343f199e3b0d3417d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_simple_tower.prefab using Guid(3259487d2c6b343f199e3b0d3417d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f7ad99c297bd239e0985b2235a3ed3') in 0.187201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree02_3.prefab
+  artifactKey: Guid(3007513605a4c402595bf39092925f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree02_3.prefab using Guid(3007513605a4c402595bf39092925f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdb07ce1d9bcfcf366421f1bbcd4531') in 0.040647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_ParticleSystemSpark.mat
+  artifactKey: Guid(4a86ae93082c84b1f9ab87d25128a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_ParticleSystemSpark.mat using Guid(4a86ae93082c84b1f9ab87d25128a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff1ed772fc8443335d8a1af816a2bba') in 0.021335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_levelend_checkeredboard.fbx
+  artifactKey: Guid(e1e8955e1b3a746178af51b76a67e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_levelend_checkeredboard.fbx using Guid(e1e8955e1b3a746178af51b76a67e388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feb5bf296a7c4790ffeb5e65cb6bc71') in 0.060188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_hole.fbx
+  artifactKey: Guid(c520b6d173dae4b75b75811823540c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_hole.fbx using Guid(c520b6d173dae4b75b75811823540c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9386d8b8dd62eaa971286ee71212f6f4') in 0.018425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_single.prefab
+  artifactKey: Guid(a12b53590b76148cca238a8a90cc4cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_single.prefab using Guid(a12b53590b76148cca238a8a90cc4cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83551da80c17f2abfece3996b3725154') in 0.032410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_ParticleSystemQuad.mat
+  artifactKey: Guid(93a641e212fc348418461356bf94b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_ParticleSystemQuad.mat using Guid(93a641e212fc348418461356bf94b9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81511146745c29ba3ac8ac450b14aca4') in 0.024953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_3.fbx
+  artifactKey: Guid(75eeee0f1426c4bc2853511a988f956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_3.fbx using Guid(75eeee0f1426c4bc2853511a988f956f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fb7f03af997a8b8f0604b5e15f8de2') in 0.056998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_guillotine.prefab
+  artifactKey: Guid(670f0f74ff88d44bcad52f4b1a113c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_guillotine.prefab using Guid(670f0f74ff88d44bcad52f4b1a113c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111d1476b6013b67650baa24888c301e') in 0.030360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree02_4.fbx
+  artifactKey: Guid(c4a83db9602d44f6fb41f93dc063a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree02_4.fbx using Guid(c4a83db9602d44f6fb41f93dc063a6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5c3fbd7c2b3fef79cb8ffac46fb388') in 0.036121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_rotating_plate.fbx
+  artifactKey: Guid(fcaaf26e0bd704aa9bf4a5775d4ea765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_rotating_plate.fbx using Guid(fcaaf26e0bd704aa9bf4a5775d4ea765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01417348463ed0a1dbc07e1c3db3c094') in 0.057654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti01.prefab
+  artifactKey: Guid(d4bc617bcb462421fa7909ab7fad8151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti01.prefab using Guid(d4bc617bcb462421fa7909ab7fad8151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cf7e4650b4a7b38b8deec7a161b2b7') in 0.049522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_slope_up_long.prefab
+  artifactKey: Guid(f8ae26f2b6ba3416ca34154572ef0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_slope_up_long.prefab using Guid(f8ae26f2b6ba3416ca34154572ef0457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fa3c443858d5315efd030a914a34ea') in 0.034030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_half_left.fbx
+  artifactKey: Guid(03dcd6c2ff67e458cbdacc6438b53bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_half_left.fbx using Guid(03dcd6c2ff67e458cbdacc6438b53bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcbaab8ed57e58f238998b3bf34466e') in 0.027499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Characters/Materials/m_female_head.mat
+  artifactKey: Guid(64193e81372114aeb94b725914f8e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Characters/Materials/m_female_head.mat using Guid(64193e81372114aeb94b725914f8e30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754de86c3f61989c49cc035fa272559e') in 0.189997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_right_90.prefab
+  artifactKey: Guid(8c71428b9d0b9468d8e3df113e4363eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_right_90.prefab using Guid(8c71428b9d0b9468d8e3df113e4363eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cc251782357fa47a0bda7a070a7c9e') in 0.049211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_right_45.fbx
+  artifactKey: Guid(20f5341e635d44b00b83020802c6570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_right_45.fbx using Guid(20f5341e635d44b00b83020802c6570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7015b8e0b5deb98f1713c0696057663') in 0.032111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight.prefab
+  artifactKey: Guid(e3ca608bcd2554376a83ad0a2f99df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight.prefab using Guid(e3ca608bcd2554376a83ad0a2f99df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af492b97f5dac9e3ff852d42e4034572') in 0.029374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Characters/Materials/m_stickman.mat
+  artifactKey: Guid(130ae9559264c41dc8515f6fa9e49fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Characters/Materials/m_stickman.mat using Guid(130ae9559264c41dc8515f6fa9e49fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4588239304be950163190ed82aec4389') in 0.022681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_slope_down_long.fbx
+  artifactKey: Guid(9aa1115098f5c4e58947a3297adc4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_slope_down_long.fbx using Guid(9aa1115098f5c4e58947a3297adc4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34472cd91b0cda6358f7be701dd057e') in 0.028714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_checkpoint_flag.fbx
+  artifactKey: Guid(b9025d976300145af8c538f6776bece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_checkpoint_flag.fbx using Guid(b9025d976300145af8c538f6776bece3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08a746397d487f018ea20d42593bdf5') in 0.062028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_sawblade_moving_short.fbx
+  artifactKey: Guid(ada45a648993a418790dd99c32fe1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_sawblade_moving_short.fbx using Guid(ada45a648993a418790dd99c32fe1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374f26b7ad945e7dd241e52c33e91072') in 0.069325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_platform_rotating.prefab
+  artifactKey: Guid(6c950bca4eeca44508495fecf7ec4b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_platform_rotating.prefab using Guid(6c950bca4eeca44508495fecf7ec4b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6594af0af64a083fd5e3b30b4574bd') in 0.059776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_checkpoint.prefab
+  artifactKey: Guid(6eab29d86cc56485ea3f78e0b6772d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_checkpoint.prefab using Guid(6eab29d86cc56485ea3f78e0b6772d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba8ee4f509aef8b435b7d775aec48cd') in 0.150366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_4.prefab
+  artifactKey: Guid(b438ab2fd511145ce81474248de94e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_4.prefab using Guid(b438ab2fd511145ce81474248de94e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047c0917acf016f423c823eb24bc87fb') in 0.032874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight_half_left.prefab
+  artifactKey: Guid(2966588cfed13409e888b93442bbc496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight_half_left.prefab using Guid(2966588cfed13409e888b93442bbc496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215cc9106075715044e99a02cea5c06c') in 0.029399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_levelend_straight.prefab
+  artifactKey: Guid(4369733c25ddf494a801b85cf26b4715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_levelend_straight.prefab using Guid(4369733c25ddf494a801b85cf26b4715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3ad730e98a3c7360d3fe34fd5347ad') in 0.036694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_rotating_sweeper.prefab
+  artifactKey: Guid(79c4753951f2e4e4cb57594454c49301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_rotating_sweeper.prefab using Guid(79c4753951f2e4e4cb57594454c49301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c74b21e9b283dfd309cceeb92f19a') in 0.035093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree02_2.prefab
+  artifactKey: Guid(f048bf1906b0b40b9a8e26e94f2eacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree02_2.prefab using Guid(f048bf1906b0b40b9a8e26e94f2eacae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61a7672f51d63681312139b0205e2ae') in 0.036744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_1.prefab
+  artifactKey: Guid(bc318f0c7a6e844308101ca66e478591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_1.prefab using Guid(bc318f0c7a6e844308101ca66e478591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970f1d78c3d0fbee4eed26f3afdce21a') in 0.034599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_bridge.fbx
+  artifactKey: Guid(0050636e108cd427bae05447282b560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_bridge.fbx using Guid(0050636e108cd427bae05447282b560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e21b1f836fb3a72b577d752e796cbe') in 0.046217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti02.prefab
+  artifactKey: Guid(63b94ec6757814947b0d33f7085463d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti02.prefab using Guid(63b94ec6757814947b0d33f7085463d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468b3be19d625b08f9fb8ca9745f11f') in 0.026398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Floor/m_levelend.mat
+  artifactKey: Guid(fa9096139a0a7466d99f44fc154d5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Floor/m_levelend.mat using Guid(fa9096139a0a7466d99f44fc154d5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8772c04fb3708980be501902b589e15') in 0.024035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Obstacles/m_obstacle2.mat
+  artifactKey: Guid(27c04f5dc8d0b42efab700724091ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Obstacles/m_obstacle2.mat using Guid(27c04f5dc8d0b42efab700724091ce2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0159adf0a4fab8fc5b18cd792d16b0d') in 0.033465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_tower_fog_01.mat
+  artifactKey: Guid(db0b6e3ae6f194a9785cd60963f23df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_tower_fog_01.mat using Guid(db0b6e3ae6f194a9785cd60963f23df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd095ad1bb7681502db6265a398770d8a') in 0.019254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_confettis.prefab
+  artifactKey: Guid(9a3026acea6ce447588da484e3603ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_confettis.prefab using Guid(9a3026acea6ce447588da484e3603ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ef8f80e99b88820396e427e48e1f95') in 0.037108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_simple_tower.fbx
+  artifactKey: Guid(1640dc824294c4d16b9836b7937c34f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_simple_tower.fbx using Guid(1640dc824294c4d16b9836b7937c34f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f7efc5b5c91f106d65fdcf48170732') in 0.024219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_right_45.prefab
+  artifactKey: Guid(2aa03a833e637476aa108817a7718b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_right_45.prefab using Guid(2aa03a833e637476aa108817a7718b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed71ab32a445341ba413b2e9605f504f') in 0.027197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Floor/m_floor_top_curves.mat
+  artifactKey: Guid(3e6b4f72c151b4e03b2bf2f3e9203198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Floor/m_floor_top_curves.mat using Guid(3e6b4f72c151b4e03b2bf2f3e9203198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54ccf5103e2d4fc346a2597a70ca742') in 0.018859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_2.prefab
+  artifactKey: Guid(d2bfc130ed3f24583b3e2e4c68e2c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_2.prefab using Guid(d2bfc130ed3f24583b3e2e4c68e2c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b7a68f89e02a05eaa0ec17fe2b8701') in 0.038721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant02_4.fbx
+  artifactKey: Guid(cc96906cd849047ce98f842a1fdaacdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant02_4.fbx using Guid(cc96906cd849047ce98f842a1fdaacdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dacad1353990d1afcbd64f87512dfd6d') in 0.023300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_levelend_checkeredboard.prefab
+  artifactKey: Guid(74f582feb3534440aa2dbab73f024296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_levelend_checkeredboard.prefab using Guid(74f582feb3534440aa2dbab73f024296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bb9a882647872db2eb76f93b3814be') in 0.022928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_left_90.prefab
+  artifactKey: Guid(5397c2bd6c9d44f9cacd4ce152ba66b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_left_90.prefab using Guid(5397c2bd6c9d44f9cacd4ce152ba66b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d63d50de405b9b08c162fb04d349b') in 0.031356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant01_1.fbx
+  artifactKey: Guid(8751e73d4ad2d4b9287da0a62cebc2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant01_1.fbx using Guid(8751e73d4ad2d4b9287da0a62cebc2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281eb1cfde1b1098e08bfb1c6acc623e') in 0.027777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Ball.prefab
+  artifactKey: Guid(e324787d7f677744483469d63c2684ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ball.prefab using Guid(e324787d7f677744483469d63c2684ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfc0bc1afc2cda38e3aebd33f466150') in 0.026792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant01_2.fbx
+  artifactKey: Guid(7682e9d6b93534f74a8c490211e241be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant01_2.fbx using Guid(7682e9d6b93534f74a8c490211e241be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5d3580c7eb5fe2fbd454058e9be16d') in 0.032941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant02_3.fbx
+  artifactKey: Guid(0cea804ba8fdc42759e7d5f7b92647b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_plant02_3.fbx using Guid(0cea804ba8fdc42759e7d5f7b92647b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a593943d6cdac76336311d7545abce21') in 0.051528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree02_3.fbx
+  artifactKey: Guid(52c96e64ffc1e4485b7efab84de145a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree02_3.fbx using Guid(52c96e64ffc1e4485b7efab84de145a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37da544de83b086b0340b32593a37d4') in 0.028784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_guillotine.fbx
+  artifactKey: Guid(6ca5e4c9ab2934fa999fde1f33926fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Obstacles/obstacle_guillotine.fbx using Guid(6ca5e4c9ab2934fa999fde1f33926fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c9b6fea07b935473f5b586a1ae6ae7') in 0.079893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_1.fbx
+  artifactKey: Guid(22621ab6864d84d2a886c783fc6dab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_1.fbx using Guid(22621ab6864d84d2a886c783fc6dab0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51a51cdacf38192ff1097d9b846c46f') in 0.024619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight_up.prefab
+  artifactKey: Guid(1547fb3085acd40e294da1c3e710ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_straight_up.prefab using Guid(1547fb3085acd40e294da1c3e710ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c844159002031599be42fae149bc16b') in 0.042800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti03.prefab
+  artifactKey: Guid(fd91ff06c4e8e421b9429eee8e40fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Prefabs/3D/PS_Confetti03.prefab using Guid(fd91ff06c4e8e421b9429eee8e40fcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97642373b4189b3608c2f9003b2282e1') in 0.034171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_4.fbx
+  artifactKey: Guid(6dee45aeddbed4abca38020a98a81033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_4.fbx using Guid(6dee45aeddbed4abca38020a98a81033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9477f51accf1462adaa7c2003a053729') in 0.051594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant01_2.prefab
+  artifactKey: Guid(e19dc5261d7bf464c8f5768ac8036ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant01_2.prefab using Guid(e19dc5261d7bf464c8f5768ac8036ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df330589438c2d5e04bb73cf239cd5e') in 0.036384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Characters/Prefabs/StickmanCharacter.prefab
+  artifactKey: Guid(3812723dc93c34e6c9ea2d0eff803ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Characters/Prefabs/StickmanCharacter.prefab using Guid(3812723dc93c34e6c9ea2d0eff803ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dea5c86380758daa1019de526136799') in 0.490376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_half_right.fbx
+  artifactKey: Guid(3b3f3ddc3330640988f3aa0ae0736339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_half_right.fbx using Guid(3b3f3ddc3330640988f3aa0ae0736339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304e063f1f3e297c6a4dbc2ae18d00c1') in 0.025475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_3.prefab
+  artifactKey: Guid(fc1a52a1acb0d4bad9a8c687595885ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_plant02_3.prefab using Guid(fc1a52a1acb0d4bad9a8c687595885ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9215ae020de3c64bf97aa9dc520c917d') in 0.079904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_levelend_straight.fbx
+  artifactKey: Guid(cc1990e6613de4bba83a266a0ad532e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_levelend_straight.fbx using Guid(cc1990e6613de4bba83a266a0ad532e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382102527aeab32cc7c02d9f638fcdde') in 0.026821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_PS-Currency.mat
+  artifactKey: Guid(9734db2aad8994369a541cc160462509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Particle Systems Library/Materials/M_PS-Currency.mat using Guid(9734db2aad8994369a541cc160462509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aabef21e054dc28da29e712a8b28fb') in 0.028991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree01_2.prefab
+  artifactKey: Guid(bd0e64eaf3da1428baaaf9ca737bdfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree01_2.prefab using Guid(bd0e64eaf3da1428baaaf9ca737bdfc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3898d8e8d4b9c1af66f42ae38962add9') in 0.041869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_checkpoint_flag_02.mat
+  artifactKey: Guid(e26214bc42a964a22966e6adf66d4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_checkpoint_flag_02.mat using Guid(e26214bc42a964a22966e6adf66d4ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0b5171410bc47580cd06c614e701d') in 0.023457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_checkpoint_flag_01.mat
+  artifactKey: Guid(203b8f4747eeb49e9bc91ebd1915e456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Materials/Props/m_checkpoint_flag_01.mat using Guid(203b8f4747eeb49e9bc91ebd1915e456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88fe11ab5ee5a30a77629cd0fc7b5d8') in 0.029103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_2.fbx
+  artifactKey: Guid(4fb8f87b7a17b496e8e9ab5708fc8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Props/prop_environment_tree01_2.fbx using Guid(4fb8f87b7a17b496e8e9ab5708fc8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6567a7bfee47aa89b09580a916eb720') in 0.031655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_down.fbx
+  artifactKey: Guid(57ca3d203d6854225a0a0bb5c9df6328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Models/Floor/floor_straight_down.fbx using Guid(57ca3d203d6854225a0a0bb5c9df6328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de51c96e4e6e1c38129438879f79716') in 0.026502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_left_45.prefab
+  artifactKey: Guid(06b4d8e66e51a4fa0a4c206407133f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Floor/floor_left_45.prefab using Guid(06b4d8e66e51a4fa0a4c206407133f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7561de904e93a9aa46d26afa1086d24e') in 0.034019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_sawblade_moving_short.prefab
+  artifactKey: Guid(81ce598bbf3ed406d8c65008ade67d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Obstacles/obstacle_sawblade_moving_short.prefab using Guid(81ce598bbf3ed406d8c65008ade67d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74a7eb175a18e675ef032a8ac493b17') in 0.032820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree01_3.prefab
+  artifactKey: Guid(c657b4b77158f484286c7fb1eeeca366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaGameKits/RunnerKit/Environment/Prefabs/Props/prop_environment_tree01_3.prefab using Guid(c657b4b77158f484286c7fb1eeeca366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d99bbf9aa79883c206dc942c77f86e') in 0.026812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 260.269008 seconds.
+  path: Assets/CodaEssentials/Textures/txt_perlinnoise.png
+  artifactKey: Guid(356d76153fcbb4dba960cb216a41203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaEssentials/Textures/txt_perlinnoise.png using Guid(356d76153fcbb4dba960cb216a41203b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da222f1802e44f6a86d260f308134e2') in 0.094401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CodaEssentials/Textures/txt_water_lod1.png
+  artifactKey: Guid(1524caba2311446e493e62dbba4fd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CodaEssentials/Textures/txt_water_lod1.png using Guid(1524caba2311446e493e62dbba4fd28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdecfa1c5693d4b7b6e9fd9e0b9c294') in 0.022059 seconds 
